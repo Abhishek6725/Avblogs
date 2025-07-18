@@ -29,7 +29,7 @@ npm run dev
 ```
 
 This single command will start both:
-- **Backend**: Express server with nodemon (usually on port 5000)
+- **Backend**: Express server with nodemon (usually on port 9000)
 - **Frontend**: Vite development server (usually on port 5173)
 
 ## Available Scripts
