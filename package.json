@@ -1,0 +1,26 @@
+{
+  "name": "react-md-editor-monorepo",
+  "version": "1.0.0",
+  "description": "React BlogSpace - Full Stack Application",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\"",
+    "install-deps": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  },
+  "keywords": [
+    "react",
+    "markdown",
+    "editor",
+    "express",
+    "mongodb",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
